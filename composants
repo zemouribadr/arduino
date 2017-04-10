@@ -1,0 +1,41 @@
+Potentiometer
+Led
+momentary switch, button, or toggle switch
+breadboard
+hook-up wires
+pulse width modulation (PWM)
+anode 
+cathode 
+resistor
+force sensing resistors
+ohm speaker (piezo buzzer)
+photoresistor
+photocell, FSR
+accelerometer
+piezo
+SEN136B5B Ultrasonic Range Finder
+LED Matrix
+pushbutton
+
+
+
+
+pinMode(buttonPin, INPUT_PULLUP);////configure pin2 as an input and enable the internal pull-up resistor
+pinMode(13, OUTPUT);
+pinMode(13, INPUT);
+Serial.println(sensorVal);
+digitalWrite(13, LOW);
+digitalWrite(13, HIGH);
+Serial.begin(9600);// initialize serial communication:
+brightness = Serial.read();
+int sensorValue = analogRead(A0);// Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
+int buttonState = digitalRead(pushButton);
+delay(1); 
+analogWrite(led, brightness);
+millis();
+if (sensorReading > threshold) {tone(8, notes[thisSensor], 20); + int notes[] = {NOTE_A4, NOTE_B4, NOTE_C3};}
+#include "pitches.h"
+noTone(8);
+map(sensorReading, 400, 1000, 120, 1500);
+sensorValue = constrain(sensorValue, 0, 255); // in case the sensor value is outside the range seen during calibration
+
