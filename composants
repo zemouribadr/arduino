@@ -6,6 +6,7 @@ hook-up wires
 pulse width modulation (PWM)
 anode 
 cathode 
+diode
 resistor
 force sensing resistors
 ohm speaker (piezo buzzer)
