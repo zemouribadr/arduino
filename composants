@@ -49,3 +49,4 @@ map(sensorReading, 400, 1000, 120, 1500);
 sensorValue = constrain(sensorValue, 0, 255); // in case the sensor value is outside the range seen during calibration
 DHT-ssnor-library github => include "DHT.h" + DHT dht(DHTPIN,DHTTYP="DHT22") + dht.begin() +float h=dht.readHumidity|Temperature()+isnan(h)
 Adafruit-BMP085-Library => include "wire.h&Adafruit_BMP085" + if(!bmp.begin()) + bmp.readTemperature|pressure|altitude()
+pulseIn(pin)=ultrasocnic motions
