@@ -21,6 +21,7 @@ DHT22 / DHT11 (Tmpratur and humidity)
 
 
 voltag dividor
+pull up resistor(protect)
 
 
 
@@ -43,4 +44,4 @@ if (sensorReading > threshold) {tone(8, notes[thisSensor], 20); + int notes[] = 
 noTone(8);
 map(sensorReading, 400, 1000, 120, 1500);
 sensorValue = constrain(sensorValue, 0, 255); // in case the sensor value is outside the range seen during calibration
-
+DHT-ssnor-library github => includ "DHT.h" + DHT dht(DHTPIN,DHTTYP="DHT22") + dht.begin() +float h=dht.readHumidity|Temperature()+isnan(h)
