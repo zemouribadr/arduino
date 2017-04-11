@@ -22,6 +22,8 @@ baromtric prssure(BMP085=3v+no pullup)
 Snsig motion(passive infared (PIR) sensor(HC-SR501) | Ultasonic motions sensors(land sonar=HC-SR04) + Microwave motion sensors)
 accelerometer(ADXL335)
 infrared line sensor(QRE1113)
+Tilt and impact sensor
+flex sensor(detect stress forces)
 
 
 
