@@ -18,7 +18,7 @@ SEN136B5B Ultrasonic Range Finder
 LED Matrix
 pushbutton
 DHT22 / DHT11 (Tmpratur and humidity)
-baromtric prssure(BMP085)
+baromtric prssure(BMP085=3v+no pullup)
 
 voltag dividor
 pull up resistor(protect)
